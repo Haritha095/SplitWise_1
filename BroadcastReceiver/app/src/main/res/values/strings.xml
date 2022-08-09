@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">BroadcastReceiver</string>
-    <string name="button_main">Send</string>
-    <string name="editText">SEND</string>
-
-</resources>
