@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LifeCycleEvents</string>
+    <string name="text_id">Have a good day!!!</string>
+    <string name="button_main">click</string>
+    <string name="textView">Hope</string>
+    <string name="todo">TODO</string>
+    <string name="todo_2">TODO</string>
+</resources>

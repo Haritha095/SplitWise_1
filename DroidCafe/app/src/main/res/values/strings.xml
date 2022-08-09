@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Droid Cafe</string>
+    <string name="textView_main">Droid Dessert</string>
+    <string name="todo">TODO</string>
+    <string name="todo_1">TODO</string>
+    <string name="todo_2">TODO</string>
+    <string name="textview_donut">Dripping chocolate on fresh buns</string>
+    <string name="textview_icecream">Delight the senses</string>
+    <string name="textview_biscuit">Cold and creamy, this is the ultimate cool treat</string>
+    <string name="donut_order_message">You ordered a donut</string>
+    <string name="ice_cream_order_message">You ordered an Icecream</string>
+    <string name="biscuit_order_message">You ordered an icecream sandwich</string>
+    <string name="todo_3">TODO</string>
+    <string name="order_textview">Order</string>
+</resources>
