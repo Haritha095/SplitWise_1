@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CantoCafe</string>
+    <string name="settings">Settings</string>
+    <string name="my_account">My Account</string>
+    <string name="logout">Logout</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="text_about">A permanent cafe for dog lovers, where you can book in some time
+        with our resident babies. Play with them, hug them and learn about them, support them through
+        our Puppy Charity Trust Partner. Enjoy our pup themed smoothies; coffees, teas and yummy cakes
+        - most importantly being in the company of our friendly babies.
+    </string>
+    <string name="todo">TODO</string>
+    <string name="world_s_favorite_cafe">World\'s Favorite Cafe</string>
+    <string name="text_title">Title</string>
+    <string-array name="Dog_Breeds">
+        <item>Beagle</item>
+        <item>Golden Retriever</item>
+        <item>Pug</item>
+        <item>Labrador</item>
+        <item>Pomeranian</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="todo1">TODO</string>
+
+</resources>

@@ -38,11 +38,11 @@
         android:id="@+id/imageView"
         android:layout_width="265dp"
         android:layout_height="141dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toTopOf="@+id/button_main"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_id"
-        app:srcCompat="@drawable/hari"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/hari" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

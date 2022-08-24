@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string-array name="Dog_Breeds">
+        <item>Beagle</item>
+        <item>Golden Retriever</item>
+        <item>Pug</item>
+        <item>Labrador</item>
+        <item>Pomeranian</item>
+    </string-array>
+
+    <string name="text_title">Title</string>
+    <string name="text_descript">Description</string>
+    <string name="todo">TODO</string>
+    <string name="task">TODO</string>
+    <string name="task1">TODO</string>
+</resources>

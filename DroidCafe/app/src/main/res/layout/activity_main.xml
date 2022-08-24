@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/my_drawer_layout"
+xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
 
     <TextView
         android:id="@+id/textView_main"
@@ -15,10 +20,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.078" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <ImageView
         android:id="@+id/imageView_donut"
@@ -29,22 +34,23 @@
         android:onClick="showDonutOrder"
         app:layout_constraintBottom_toTopOf="@+id/imageView_icecream"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_main"
-        app:layout_constraintVertical_bias="0.097"
-        app:srcCompat="@drawable/donut_circle" />
+        app:layout_constraintVertical_bias="0.638"
+        app:srcCompat="@drawable/donut_circle"
+        tools:ignore="DuplicateSpeakableTextCheck,ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView_icecream"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="72dp"
         android:contentDescription="@string/todo_1"
         android:onClick="showIceCreamOrder"
         app:layout_constraintBottom_toTopOf="@+id/imageView_biscuit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/froyo_circle" />
 
@@ -52,26 +58,14 @@
         android:id="@+id/imageView_biscuit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="176dp"
+        android:layout_marginBottom="132dp"
         android:contentDescription="@string/todo_2"
         android:onClick="showBiscuitOrder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/icecream_circle" />
-
-    <TextView
-        android:id="@+id/textView_donut"
-        android:layout_width="189dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/textview_donut"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView_donut" />
 
     <TextView
         android:id="@+id/textview_icecream"
@@ -80,24 +74,11 @@
         android:layout_marginTop="48dp"
         android:text="@string/textview_icecream"
         android:textSize="20sp"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.838"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView_icecream" />
-
-    <TextView
-        android:id="@+id/textview_biscuit"
-        android:layout_width="182dp"
-        android:layout_height="69dp"
-        android:layout_marginTop="12dp"
-        android:text="@string/textview_biscuit"
-        android:textSize="20sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toEndOf="@+id/imageView_biscuit"
-        app:layout_constraintTop_toTopOf="@+id/imageView_biscuit" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton_main"
@@ -105,12 +86,43 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:clickable="true"
+        android:contentDescription="@string/todo_3"
+        android:focusable="true"
+        android:onClick="onClickSecondActivity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.887"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_shopping_cart"
-        android:onClick="onClick"
-        android:contentDescription="@string/todo_3"
-        android:focusable="true" />
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textview_donut"
+        android:layout_width="169dp"
+        android:layout_height="93dp"
+        android:text="@string/textview_donut"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textview_icecream"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView_donut"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main" />
+
+
+    <TextView
+        android:id="@+id/textview_biscuit"
+        android:layout_width="175dp"
+        android:layout_height="84dp"
+        android:text="@string/textview_biscuit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintStart_toEndOf="@+id/imageView_biscuit"
+        app:layout_constraintTop_toBottomOf="@+id/textview_icecream"
+        app:layout_constraintVertical_bias="0.332" />.
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

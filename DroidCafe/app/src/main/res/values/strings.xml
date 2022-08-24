@@ -1,4 +1,6 @@
 <resources>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
     <string name="app_name">Droid Cafe</string>
     <string name="textView_main">Droid Dessert</string>
     <string name="todo">TODO</string>
@@ -12,4 +14,43 @@
     <string name="biscuit_order_message">You ordered an icecream sandwich</string>
     <string name="todo_3">TODO</string>
     <string name="order_textview">Order</string>
+    <string name="text_name">Name</string>
+    <string name="edit_text_name" />
+    <string name="text_address">Address</string>
+    <string name="text_phone">Phone</string>
+    <string name="title_activity_order">Order Activity</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_address">Enter your address</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="text_note">Note</string>
+    <string name="hint_note">Enter required information</string>
+    <string name="text_delivery">Choose a Delivery method</string>
+    <string name="radio_pickup">Pickup</string>
+    <string name="radio_delivery">Delivery</string>
+    <string name="action_contact">Contact</string>
+    <string name="action_order">Order</string>
+    <string name="action_status">Status</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
+    <string name="date">Date: </string>
+    <string-array name="label_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="about">About</string>
+    <string name="order">Order</string>
+    <string name="trivia">Trivia</string>
+    <string name="these_are_the_top_stories">These are the top stories:</string>
+    <string name="home">Home</string>
+    <string name="about_menu">About</string>
+    <string name="blank_fragment">blank_fragment</string>
+
+
 </resources>

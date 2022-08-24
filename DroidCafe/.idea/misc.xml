@@ -3,8 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/layout/activity_order.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/drawable-anydpi/ic_shopping_cart.xml" value="0.2235" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/layout/activity_order.xml" value="0.264" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/layout/content_main.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/layout/fragment_about.xml" value="0.2105978260869565" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/layout/fragment_date_picker.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/layout/fragment_fragment1.xml" value="0.1" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/layout/toolbar.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/menu/menu_option.xml" value="0.25" />
+        <entry key="..\:/Users/had274272/AndroidStudioProjects/DroidCafe/app/src/main/res/menu/settings_menu.xml" value="0.2" />
       </map>
     </option>
   </component>
