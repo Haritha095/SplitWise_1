@@ -2,13 +2,11 @@ package com.example.powerreceiver;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
-
-import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
     private CustomReceiver mReceiver = new CustomReceiver();

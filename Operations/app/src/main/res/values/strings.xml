@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Operations</string>
+    <string name="add">ADD</string>
+    <string name="sub">SUB</string>
+    <string name="div">Div</string>
+    <string name="multiply">Multiply</string>
+</resources>
